@@ -1,6 +1,6 @@
 body{
     background-color: rgb(53, 134, 240);
-    justify-content: center;
+
 }
 .formulaire{
     background-color: white;
@@ -9,6 +9,7 @@ body{
   box-shadow: 0 12px 35px rgb(115, 64, 64);
   border-radius: 12px; 
   text-align: center;
+justify-self: center;
 }
 h1{
     margin: 0 0 8px;
