@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(53, 134, 240);
+    justify-content: center;
+}
+.formulaire{
+    background-color: white;
+    width: 100vh;
+  padding: 32px;
+  box-shadow: 0 12px 35px rgb(115, 64, 64);
+  border-radius: 12px; 
+  text-align: center;
+}
+h1{
+    margin: 0 0 8px;
+}
+.champs{
+    margin-bottom: 12px;
+}

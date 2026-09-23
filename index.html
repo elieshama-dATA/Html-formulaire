@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form class="formulaire" action="" method="">
+            <H1>Inscription à la formation</H1>
+            <p class="intro">remplissez les champs ci-dessous pour vous inscrire.</p>
+            <div class="champs">
+                <label for="Nom">Nom</label>
+                <input id="Nom" type="text" name="Nom" placeholder="Nom" autocomplete="Nom" minlength="5" required>
+
+
+            </div>
+            <div class="champs">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="exemple43@gmail.com" autocomplete="email"
+                    required>
+
+
+            </div>
+            <div class="champs">
+                <label for="tel">Téléphone</label>
+                <input id="tel" type="tel" name="tel" placeholder="+225 0500000000" autocomplete="tel" required>
+            </div>
+
+            <div class="champs">
+                <label for="Niveau">Niveau</label>
+                <select name="Niveau" id="Niveau">
+                    <option value="BAC">BAC</option>
+                    <option value="BTS">BTS</option>
+                </select>
+            </div>
+            <div class="champs">
+                <label for="file"></label>
+                <input id="file" type="file" name="file" required>
+            </div>
+
+            <fieldset>
+                <legend>Horaire</legend>
+
+                <label for="horaire" class="mode">
+                    <input type="radio" id="horaire" name="mode" value="matin">
+                    Matin
+                </label>
+
+                <label for="horaire" class="mode">
+                    <input type="radio" id="horaire" name="mode" value="soir">
+                    Soir
+                </label>
+
+            </fieldset>
+
+            <div class="champs">
+                <label for="Message"></label>
+                <textarea name="" id="" placeholder="votre message..." rows="2" cols="50"></textarea>
+            </div>
+
+            <button type="submit">envoyer</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
