@@ -11,11 +11,11 @@
 <body>
     <main>
         <form class="formulaire" action="" method="">
-            <H1>Inscription à la formation</H1>
+            <H1 class="input-box">Inscription à la formation musical</H1>
             <p class="intro">remplissez les champs ci-dessous pour vous inscrire.</p>
             <div class="champs">
-                <label for="Nom">Nom</label>
-                <input id="Nom" type="text" name="Nom" placeholder="Nom" autocomplete="Nom" minlength="5" required>
+                <label for="Nom">Nom et prenom</label>
+                <input id="Nom" type="text" name="Nom" placeholder="Nom et prenom" autocomplete="Nom" minlength="5" required>
 
 
             </div>
@@ -32,10 +32,11 @@
             </div>
 
             <div class="champs">
-                <label for="Niveau">Niveau</label>
+                <label for="Niveau">Niveau harmonique</label>
                 <select name="Niveau" id="Niveau">
-                    <option value="BAC">BAC</option>
-                    <option value="BTS">BTS</option>
+                    <option value="">debutant</option>
+                    <option value="">intermediaire</option>
+                    <option value="">avancé</option>
                 </select>
             </div>
             <div class="champs">
@@ -44,16 +45,20 @@
             </div>
 
             <fieldset>
-                <legend>Horaire</legend>
+                <legend>instruments</legend>
 
-                <label for="horaire" class="mode">
-                    <input type="radio" id="horaire" name="mode" value="matin">
-                    Matin
+                <label for="instruments" class="mode">
+                    <input style="color: transparent;" type="radio" id="instruments" name="mode" value="piano">
+                    piano
                 </label>
 
-                <label for="horaire" class="mode">
-                    <input type="radio" id="horaire" name="mode" value="soir">
-                    Soir
+                <label for="instruments" class="mode">
+                    <input type="radio" id="instruments" name="mode" value="batterie">
+                    baterrie
+                </label>
+                <label for="instruments" class="mode">
+                    <input type="radio" id="instruments" name="mode" value="guitare">
+                    guitare
                 </label>
 
             </fieldset>

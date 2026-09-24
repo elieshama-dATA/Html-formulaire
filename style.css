@@ -1,19 +1,37 @@
 body{
-    background-color: rgb(53, 134, 240);
+    background-color: rgb(35, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
 }
 .formulaire{
-    background-color: white;
+    background-color: rgb(222, 111, 129);
     width: 100vh;
   padding: 32px;
   box-shadow: 0 12px 35px rgb(115, 64, 64);
   border-radius: 12px; 
   text-align: center;
-justify-self: center;
+  border: 20px;
+
 }
 h1{
     margin: 0 0 8px;
 }
 .champs{
     margin-bottom: 12px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+border: 20px black;
+padding-right: 50px;
+
 }
+.mode{
+    margin-bottom: 20px;
+}
+
+
+
+
